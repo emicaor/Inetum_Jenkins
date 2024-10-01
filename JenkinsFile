@@ -14,7 +14,7 @@ pipeline
             }
         }
         
-        stage("Paso 2: población")
+        stage("Paso 2: poblacion")
         {
             steps
             {
