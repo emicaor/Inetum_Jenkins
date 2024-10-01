@@ -1,0 +1,25 @@
+def clima = 26
+def poblacion = 108.056
+pipeline
+{
+    agent any
+    
+    stages
+    {
+        stage("Paso 1: Clima")
+        {
+            steps
+            {
+                println "Actualmente hacen ${clima}ºC"
+            }
+        }
+        
+        stage("Paso 2: población")
+        {
+            steps
+            {
+                println "Hay una población de ${poblacion} personas"
+            }
+        }        
+    }
+}
