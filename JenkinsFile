@@ -10,7 +10,7 @@ pipeline
         {
             steps
             {
-                println "Actualmente hacen ${clima}ºC"
+                println "Actualmente hacen ${clima} C"
             }
         }
         
@@ -18,7 +18,7 @@ pipeline
         {
             steps
             {
-                println "Hay una población de ${poblacion} personas"
+                println "Hay una poblacion de ${poblacion} personas"
             }
         }        
     }
